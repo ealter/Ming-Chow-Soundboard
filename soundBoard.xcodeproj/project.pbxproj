@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2F229ED14E4B3E8003C3B70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F229EC14E4B3E8003C3B70 /* UIKit.framework */; };
+		E2F229EF14E4B3E8003C3B70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F229EE14E4B3E8003C3B70 /* Foundation.framework */; };
+		E2F229F114E4B3E8003C3B70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F229F014E4B3E8003C3B70 /* CoreGraphics.framework */; };
+		E2F229F714E4B3E8003C3B70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2F229F514E4B3E8003C3B70 /* InfoPlist.strings */; };
+		E2F229F914E4B3E8003C3B70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F229F814E4B3E8003C3B70 /* main.m */; };
+		E2F229FD14E4B3E8003C3B70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F229FC14E4B3E8003C3B70 /* AppDelegate.m */; };
+		E2F22A0014E4B3E8003C3B70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F229FF14E4B3E8003C3B70 /* ViewController.m */; };
+		E2F22A0314E4B3E8003C3B70 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F22A0114E4B3E8003C3B70 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2F229E814E4B3E8003C3B70 /* soundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F229EC14E4B3E8003C3B70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2F229EE14E4B3E8003C3B70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2F229F014E4B3E8003C3B70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2F229F414E4B3E8003C3B70 /* soundBoard-Info.plist */ = {isa = PBXFileReference; path = "soundBoard-Info.plist"; sourceTree = "<group>"; };
+		E2F229F614E4B3E8003C3B70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2F229F814E4B3E8003C3B70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2F229FA14E4B3E8003C3B70 /* soundBoard-Prefix.pch */ = {isa = PBXFileReference; path = "soundBoard-Prefix.pch"; sourceTree = "<group>"; };
+		E2F229FB14E4B3E8003C3B70 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2F229FC14E4B3E8003C3B70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2F229FE14E4B3E8003C3B70 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E2F229FF14E4B3E8003C3B70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2F22A0214E4B3E8003C3B70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2F229E514E4B3E8003C3B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F229ED14E4B3E8003C3B70 /* UIKit.framework in Frameworks */,
+				E2F229EF14E4B3E8003C3B70 /* Foundation.framework in Frameworks */,
+				E2F229F114E4B3E8003C3B70 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2F229DD14E4B3E8003C3B70 = {
+			isa = PBXGroup;
+			children = (
+				E2F229F214E4B3E8003C3B70 /* soundBoard */,
+				E2F229EB14E4B3E8003C3B70 /* Frameworks */,
+				E2F229E914E4B3E8003C3B70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2F229E914E4B3E8003C3B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2F229E814E4B3E8003C3B70 /* soundBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2F229EB14E4B3E8003C3B70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2F229EC14E4B3E8003C3B70 /* UIKit.framework */,
+				E2F229EE14E4B3E8003C3B70 /* Foundation.framework */,
+				E2F229F014E4B3E8003C3B70 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2F229F214E4B3E8003C3B70 /* soundBoard */ = {
+			isa = PBXGroup;
+			children = (
+				E2F229FB14E4B3E8003C3B70 /* AppDelegate.h */,
+				E2F229FC14E4B3E8003C3B70 /* AppDelegate.m */,
+				E2F229FE14E4B3E8003C3B70 /* ViewController.h */,
+				E2F229FF14E4B3E8003C3B70 /* ViewController.m */,
+				E2F22A0114E4B3E8003C3B70 /* ViewController.xib */,
+				E2F229F314E4B3E8003C3B70 /* Supporting Files */,
+			);
+			path = soundBoard;
+			sourceTree = "<group>";
+		};
+		E2F229F314E4B3E8003C3B70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F229F414E4B3E8003C3B70 /* soundBoard-Info.plist */,
+				E2F229F514E4B3E8003C3B70 /* InfoPlist.strings */,
+				E2F229F814E4B3E8003C3B70 /* main.m */,
+				E2F229FA14E4B3E8003C3B70 /* soundBoard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2F229E714E4B3E8003C3B70 /* soundBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F22A0614E4B3E8003C3B70 /* Build configuration list for PBXNativeTarget "soundBoard" */;
+			buildPhases = (
+				E2F229E414E4B3E8003C3B70 /* Sources */,
+				E2F229E514E4B3E8003C3B70 /* Frameworks */,
+				E2F229E614E4B3E8003C3B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = soundBoard;
+			productName = soundBoard;
+			productReference = E2F229E814E4B3E8003C3B70 /* soundBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2F229DF14E4B3E8003C3B70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E2F229E214E4B3E8003C3B70 /* Build configuration list for PBXProject "soundBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2F229DD14E4B3E8003C3B70;
+			productRefGroup = E2F229E914E4B3E8003C3B70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2F229E714E4B3E8003C3B70 /* soundBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2F229E614E4B3E8003C3B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F229F714E4B3E8003C3B70 /* InfoPlist.strings in Resources */,
+				E2F22A0314E4B3E8003C3B70 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2F229E414E4B3E8003C3B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F229F914E4B3E8003C3B70 /* main.m in Sources */,
+				E2F229FD14E4B3E8003C3B70 /* AppDelegate.m in Sources */,
+				E2F22A0014E4B3E8003C3B70 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2F229F514E4B3E8003C3B70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F229F614E4B3E8003C3B70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E2F22A0114E4B3E8003C3B70 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F22A0214E4B3E8003C3B70 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2F22A0414E4B3E8003C3B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E2F22A0514E4B3E8003C3B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2F22A0714E4B3E8003C3B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "soundBoard/soundBoard-Prefix.pch";
+				INFOPLIST_FILE = "soundBoard/soundBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2F22A0814E4B3E8003C3B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "soundBoard/soundBoard-Prefix.pch";
+				INFOPLIST_FILE = "soundBoard/soundBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2F229E214E4B3E8003C3B70 /* Build configuration list for PBXProject "soundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F22A0414E4B3E8003C3B70 /* Debug */,
+				E2F22A0514E4B3E8003C3B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F22A0614E4B3E8003C3B70 /* Build configuration list for PBXNativeTarget "soundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F22A0714E4B3E8003C3B70 /* Debug */,
+				E2F22A0814E4B3E8003C3B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2F229DF14E4B3E8003C3B70 /* Project object */;
+}
