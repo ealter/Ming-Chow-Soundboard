@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E241904214ECAB270091BED0 /* sound-0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E241903714ECAB270091BED0 /* sound-0.mp3 */; };
+		E241904314ECAB270091BED0 /* sound-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E241903814ECAB270091BED0 /* sound-1.mp3 */; };
+		E241904414ECAB270091BED0 /* sound-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E241903914ECAB270091BED0 /* sound-2.mp3 */; };
+		E241904514ECAB270091BED0 /* sound-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E241903A14ECAB270091BED0 /* sound-3.mp3 */; };
+		E241904614ECAB270091BED0 /* sound-4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E241903B14ECAB270091BED0 /* sound-4.mp3 */; };
+		E241904714ECAB270091BED0 /* sound-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E241903C14ECAB270091BED0 /* sound-5.mp3 */; };
+		E241904814ECAB270091BED0 /* sound-6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E241903D14ECAB270091BED0 /* sound-6.mp3 */; };
+		E241904914ECAB270091BED0 /* sound-7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E241903E14ECAB270091BED0 /* sound-7.mp3 */; };
+		E241904A14ECAB270091BED0 /* sound-8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E241903F14ECAB270091BED0 /* sound-8.mp3 */; };
+		E241904B14ECAB270091BED0 /* sound-9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E241904014ECAB270091BED0 /* sound-9.mp3 */; };
+		E241904C14ECAB270091BED0 /* sound-10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E241904114ECAB270091BED0 /* sound-10.mp3 */; };
+		E241904F14ECAF180091BED0 /* mChow.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E241904E14ECAF180091BED0 /* mChow.JPG */; };
+		E241905314ECB3F90091BED0 /* cerebro de homero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E241905214ECB3F80091BED0 /* cerebro de homero.jpg */; };
+		E2675D6414EDCA6300481CF5 /* sound-13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2675D5E14EDCA6300481CF5 /* sound-13.mp3 */; };
+		E2675D6514EDCA6300481CF5 /* sound-15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2675D5F14EDCA6300481CF5 /* sound-15.mp3 */; };
+		E2675D6614EDCA6300481CF5 /* sound-11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2675D6014EDCA6300481CF5 /* sound-11.mp3 */; };
+		E2675D6714EDCA6300481CF5 /* sound-12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2675D6114EDCA6300481CF5 /* sound-12.mp3 */; };
+		E2675D6914EDCA6300481CF5 /* sound-14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2675D6314EDCA6300481CF5 /* sound-14.mp3 */; };
 		E2F229ED14E4B3E8003C3B70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F229EC14E4B3E8003C3B70 /* UIKit.framework */; };
 		E2F229EF14E4B3E8003C3B70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F229EE14E4B3E8003C3B70 /* Foundation.framework */; };
 		E2F229F114E4B3E8003C3B70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F229F014E4B3E8003C3B70 /* CoreGraphics.framework */; };
@@ -15,22 +33,44 @@
 		E2F229FD14E4B3E8003C3B70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F229FC14E4B3E8003C3B70 /* AppDelegate.m */; };
 		E2F22A0014E4B3E8003C3B70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F229FF14E4B3E8003C3B70 /* ViewController.m */; };
 		E2F22A0314E4B3E8003C3B70 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F22A0114E4B3E8003C3B70 /* ViewController.xib */; };
+		E2F22A1014E4BD06003C3B70 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F22A0F14E4BD06003C3B70 /* AVFoundation.framework */; };
+		E2F22A1214E4BD17003C3B70 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F22A1114E4BD17003C3B70 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E241903714ECAB270091BED0 /* sound-0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-0.mp3"; path = "good/sound-0.mp3"; sourceTree = "<group>"; };
+		E241903814ECAB270091BED0 /* sound-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-1.mp3"; path = "good/sound-1.mp3"; sourceTree = "<group>"; };
+		E241903914ECAB270091BED0 /* sound-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-2.mp3"; path = "good/sound-2.mp3"; sourceTree = "<group>"; };
+		E241903A14ECAB270091BED0 /* sound-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-3.mp3"; path = "good/sound-3.mp3"; sourceTree = "<group>"; };
+		E241903B14ECAB270091BED0 /* sound-4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-4.mp3"; path = "good/sound-4.mp3"; sourceTree = "<group>"; };
+		E241903C14ECAB270091BED0 /* sound-5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-5.mp3"; path = "good/sound-5.mp3"; sourceTree = "<group>"; };
+		E241903D14ECAB270091BED0 /* sound-6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-6.mp3"; path = "good/sound-6.mp3"; sourceTree = "<group>"; };
+		E241903E14ECAB270091BED0 /* sound-7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-7.mp3"; path = "good/sound-7.mp3"; sourceTree = "<group>"; };
+		E241903F14ECAB270091BED0 /* sound-8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-8.mp3"; path = "good/sound-8.mp3"; sourceTree = "<group>"; };
+		E241904014ECAB270091BED0 /* sound-9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-9.mp3"; path = "good/sound-9.mp3"; sourceTree = "<group>"; };
+		E241904114ECAB270091BED0 /* sound-10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-10.mp3"; path = "good/sound-10.mp3"; sourceTree = "<group>"; };
+		E241904E14ECAF180091BED0 /* mChow.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mChow.JPG; sourceTree = "<group>"; };
+		E241905214ECB3F80091BED0 /* cerebro de homero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cerebro de homero.jpg"; sourceTree = "<group>"; };
+		E2675D5E14EDCA6300481CF5 /* sound-13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-13.mp3"; path = "soundBoard/sound-13.mp3"; sourceTree = "<group>"; };
+		E2675D5F14EDCA6300481CF5 /* sound-15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-15.mp3"; path = "soundBoard/sound-15.mp3"; sourceTree = "<group>"; };
+		E2675D6014EDCA6300481CF5 /* sound-11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-11.mp3"; path = "soundBoard/sound-11.mp3"; sourceTree = "<group>"; };
+		E2675D6114EDCA6300481CF5 /* sound-12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-12.mp3"; path = "soundBoard/sound-12.mp3"; sourceTree = "<group>"; };
+		E2675D6314EDCA6300481CF5 /* sound-14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sound-14.mp3"; path = "soundBoard/sound-14.mp3"; sourceTree = "<group>"; };
 		E2F229E814E4B3E8003C3B70 /* soundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F229EC14E4B3E8003C3B70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2F229EE14E4B3E8003C3B70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2F229F014E4B3E8003C3B70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E2F229F414E4B3E8003C3B70 /* soundBoard-Info.plist */ = {isa = PBXFileReference; path = "soundBoard-Info.plist"; sourceTree = "<group>"; };
+		E2F229F414E4B3E8003C3B70 /* soundBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "soundBoard-Info.plist"; sourceTree = "<group>"; };
 		E2F229F614E4B3E8003C3B70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2F229F814E4B3E8003C3B70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E2F229FA14E4B3E8003C3B70 /* soundBoard-Prefix.pch */ = {isa = PBXFileReference; path = "soundBoard-Prefix.pch"; sourceTree = "<group>"; };
-		E2F229FB14E4B3E8003C3B70 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2F229FA14E4B3E8003C3B70 /* soundBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "soundBoard-Prefix.pch"; sourceTree = "<group>"; };
+		E2F229FB14E4B3E8003C3B70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2F229FC14E4B3E8003C3B70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E2F229FE14E4B3E8003C3B70 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E2F229FE14E4B3E8003C3B70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E2F229FF14E4B3E8003C3B70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E2F22A0214E4B3E8003C3B70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E2F22A0F14E4BD06003C3B70 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E2F22A1114E4BD17003C3B70 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F22A1214E4BD17003C3B70 /* AudioToolbox.framework in Frameworks */,
+				E2F22A1014E4BD06003C3B70 /* AVFoundation.framework in Frameworks */,
 				E2F229ED14E4B3E8003C3B70 /* UIKit.framework in Frameworks */,
 				E2F229EF14E4B3E8003C3B70 /* Foundation.framework in Frameworks */,
 				E2F229F114E4B3E8003C3B70 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +92,24 @@
 		E2F229DD14E4B3E8003C3B70 = {
 			isa = PBXGroup;
 			children = (
+				E241903714ECAB270091BED0 /* sound-0.mp3 */,
+				E241903814ECAB270091BED0 /* sound-1.mp3 */,
+				E241903914ECAB270091BED0 /* sound-2.mp3 */,
+				E241903A14ECAB270091BED0 /* sound-3.mp3 */,
+				E241903B14ECAB270091BED0 /* sound-4.mp3 */,
+				E241903C14ECAB270091BED0 /* sound-5.mp3 */,
+				E241903D14ECAB270091BED0 /* sound-6.mp3 */,
+				E241903E14ECAB270091BED0 /* sound-7.mp3 */,
+				E241903F14ECAB270091BED0 /* sound-8.mp3 */,
+				E241904014ECAB270091BED0 /* sound-9.mp3 */,
+				E241904114ECAB270091BED0 /* sound-10.mp3 */,
+				E2675D5E14EDCA6300481CF5 /* sound-13.mp3 */,
+				E2675D5F14EDCA6300481CF5 /* sound-15.mp3 */,
+				E2675D6014EDCA6300481CF5 /* sound-11.mp3 */,
+				E2675D6114EDCA6300481CF5 /* sound-12.mp3 */,
+				E2675D6314EDCA6300481CF5 /* sound-14.mp3 */,
+				E2F22A1114E4BD17003C3B70 /* AudioToolbox.framework */,
+				E2F22A0F14E4BD06003C3B70 /* AVFoundation.framework */,
 				E2F229F214E4B3E8003C3B70 /* soundBoard */,
 				E2F229EB14E4B3E8003C3B70 /* Frameworks */,
 				E2F229E914E4B3E8003C3B70 /* Products */,
@@ -82,6 +142,8 @@
 				E2F229FE14E4B3E8003C3B70 /* ViewController.h */,
 				E2F229FF14E4B3E8003C3B70 /* ViewController.m */,
 				E2F22A0114E4B3E8003C3B70 /* ViewController.xib */,
+				E241905214ECB3F80091BED0 /* cerebro de homero.jpg */,
+				E241904E14ECAF180091BED0 /* mChow.JPG */,
 				E2F229F314E4B3E8003C3B70 /* Supporting Files */,
 			);
 			path = soundBoard;
@@ -150,6 +212,24 @@
 			files = (
 				E2F229F714E4B3E8003C3B70 /* InfoPlist.strings in Resources */,
 				E2F22A0314E4B3E8003C3B70 /* ViewController.xib in Resources */,
+				E241904214ECAB270091BED0 /* sound-0.mp3 in Resources */,
+				E241904314ECAB270091BED0 /* sound-1.mp3 in Resources */,
+				E241904414ECAB270091BED0 /* sound-2.mp3 in Resources */,
+				E241904514ECAB270091BED0 /* sound-3.mp3 in Resources */,
+				E241904614ECAB270091BED0 /* sound-4.mp3 in Resources */,
+				E241904714ECAB270091BED0 /* sound-5.mp3 in Resources */,
+				E241904814ECAB270091BED0 /* sound-6.mp3 in Resources */,
+				E241904914ECAB270091BED0 /* sound-7.mp3 in Resources */,
+				E241904A14ECAB270091BED0 /* sound-8.mp3 in Resources */,
+				E241904B14ECAB270091BED0 /* sound-9.mp3 in Resources */,
+				E241904C14ECAB270091BED0 /* sound-10.mp3 in Resources */,
+				E241904F14ECAF180091BED0 /* mChow.JPG in Resources */,
+				E241905314ECB3F90091BED0 /* cerebro de homero.jpg in Resources */,
+				E2675D6414EDCA6300481CF5 /* sound-13.mp3 in Resources */,
+				E2675D6514EDCA6300481CF5 /* sound-15.mp3 in Resources */,
+				E2675D6614EDCA6300481CF5 /* sound-11.mp3 in Resources */,
+				E2675D6714EDCA6300481CF5 /* sound-12.mp3 in Resources */,
+				E2675D6914EDCA6300481CF5 /* sound-14.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +356,7 @@
 				E2F22A0814E4B3E8003C3B70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
