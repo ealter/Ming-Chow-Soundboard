@@ -18,7 +18,6 @@ $(document).ready(function() {
             if(currentlyPlaying != null) {
                 currentlyPlaying.pause();
             }
-            console.log(audio);
             if(audio.readyState >= 1) {
                 audio.currentTime = 0;
                 audio.pause();
@@ -32,5 +31,4 @@ $(document).ready(function() {
         createAudioTag(elem.id);
     });
 });
-    console.log("foo");
 
